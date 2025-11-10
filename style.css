@@ -1,0 +1,36 @@
+body {
+  background-color: #fdf5e6; 
+  font-family: 'Great Vibes',cursive;
+  color: #333;
+  margin: 40px;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto 20px auto; 
+  padding: 0 10px;
+} 
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 40px auto;
+} 
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.border-creme {
+  --bs-border-color: #fdf5e6; /* defines local variable for this element */
+  border-color: var(--bs-border-color) !important;
+}.  
+
+

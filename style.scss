@@ -1,0 +1,9 @@
+$border-black: #000 !default;
+
+:root {
+  --bs-border-black: #{$border-black};
+}
+
+.border-black {
+  border: 2px solid var(--bs-border-black) !important;
+}
