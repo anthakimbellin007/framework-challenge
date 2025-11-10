@@ -29,7 +29,7 @@ p {
 }
 
 .border-creme {
-  --bs-border-color: #fdf5e6; /* defines local variable for this element */
+  --bs-border-color: #fdf5e6; 
   border-color: var(--bs-border-color) !important;
 }.  
 
